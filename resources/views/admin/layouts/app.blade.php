@@ -25,10 +25,6 @@
     <link rel="stylesheet" href="{{asset('admin')}}/plugins/daterangepicker/daterangepicker.css">
     <!-- summernote -->
     <link rel="stylesheet" href="{{asset('admin')}}/plugins/summernote/summernote-bs4.min.css">
-    <!-- Select2 -->
-    <link rel="stylesheet" href="{{asset('admin')}}/plugins/select2/css/select2.min.css">
-    <link rel="stylesheet" href="{{asset('admin')}}/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
-    @stack('style')
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -82,12 +78,6 @@
 <!-- AdminLTE for demo purposes -->
 <script src="{{asset('admin')}}/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="{{asset('admin')}}/dist/js/pages/dashboard .js"></script>
-<!-- Select2 -->
-<script src="{{asset('admin')}}/plugins/select2/js/select2.full.min.js"></script>
-<script>
-    $('.select2').select2()
-</script>
-@stack('script')
+<script src="{{asset('admin')}}/dist/js/pages/dashboard.js"></script>
 </body>
 </html>
