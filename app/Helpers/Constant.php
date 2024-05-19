@@ -1,5 +1,0 @@
-<?php
-
-const PRODUCT_ATTRIBUTE_SIZE = 1;
-const PRODUCT_ATTRIBUTE_COLOR = 2;
-
